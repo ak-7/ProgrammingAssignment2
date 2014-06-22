@@ -1,8 +1,5 @@
-## Put comments here that give an overall description of what your
-## functions do
 
-## Write a short comment describing this function
-
+##Used prototype function as described in the example
   makeCacheMatrix <- function(x = matrix()) {
     m<-NULL
     set<-function(y){
@@ -19,7 +16,7 @@
 }
 
 
-## Write a short comment describing this function
+## Since we are using matrices we work with a vector in line 27 and hence I have just modified the get function
 
 cacheSolve <- function(x, ...) {
   m<-x$getmatrix()
